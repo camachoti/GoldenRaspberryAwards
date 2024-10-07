@@ -1,0 +1,10 @@
+# Getting Started
+Note: You can replace the `movielist.csv` file that will be imported into the database on startup of the application.
+
+1. Execute via spring the application `GoldenRaspberryAwardsApplication`
+
+2. Call rest api http://localhost:8080/
+
+3. Test will be executed with mvn test
+
+
