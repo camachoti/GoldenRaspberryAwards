@@ -9,8 +9,8 @@ public class MovieIntervalDTO {
     private Integer previousWin;
     private Integer followingWin;
 
-    public MovieIntervalDTO(Movie movie1, Movie movie2) {
-        this.producer = movie1.getProducer();
+    public MovieIntervalDTO(Movie movie1, Movie movie2, String producer) {
+        this.producer = producer;
         this.interval = movie2.getYear() - movie1.getYear();
         this.previousWin = movie1.getYear();
         this.followingWin = movie2.getYear();
